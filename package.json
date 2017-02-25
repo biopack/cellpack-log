@@ -1,0 +1,43 @@
+{
+    "name": "cellpack-log",
+    "version": "1.0.0-alpha.1",
+    "description": "Cellpack module for Microb framework integrated logging",
+    "keywords": [
+        "Microb","mvc","framework","web","log","logging"
+    ],
+    "bugs": "https://github.com/biopack/cellpack-log/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/biopack/cellpack-log.git"
+    },
+    "license": "GPL-3.0",
+    "author": "scippio",
+    "main": "./src/main",
+    "types": "./types/main.d.ts",
+    "scripts": {
+        "build": "gulp",
+        "start": "gulp",
+        "watch": "gulp watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "app-root-path": "^2.0.1",
+        "bluebird": "^3.4.6",
+        "lodash": "^4.17.2",
+        "microb": "1.0.0-alpha.22",
+        "bunyan": "^1.8.5"
+    },
+    "devDependencies": {
+        "@types/app-root-path": "1.2.4",
+        "@types/gulp": "3.8.32",
+        "@types/gulp-typescript": "0.0.32",
+        "@types/merge2": "0.3.29",
+        "@types/bluebird": "3.0.37",
+        "@types/bunyan": "0.0.35",
+        "@types/lodash": "4.14.53",
+        "gulp": "^3.9.1",
+        "gulp-typescript": "^3.1.3",
+        "typescript": "^2.0.9",
+        "merge2": "^1.0.2"
+    }
+}
